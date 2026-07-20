@@ -16,7 +16,6 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
-    "baseUrl": ".",
     "paths": {
       "@/*": [
         "./*"
@@ -29,6 +28,9 @@
       ],
       "@/config/*": [
         "./config/*"
+      ],
+      "@/types/*": [
+        "./types/*"
       ]
     },
     "strict": true,
