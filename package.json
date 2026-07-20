@@ -1,0 +1,44 @@
+{
+  "name": "ijlj-frontend",
+  "version": "1.0.0",
+  "description": "International Journal of Legal Jurisprudence - Premium Legal Publishing Platform",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chirag-suvarna/ijlj-frontend.git"
+  },
+  "keywords": [
+    "legal",
+    "journal",
+    "jurisprudence",
+    "publishing",
+    "research",
+    "open-access"
+  ],
+  "author": "IJLJ Editorial Board",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chirag-suvarna/ijlj-frontend/issues"
+  },
+  "homepage": "https://github.com/chirag-suvarna/ijlj-frontend#readme",
+  "dependencies": {
+    "@types/node": "^26.1.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.4",
+    "next": "^16.2.10",
+    "postcss": "^8.5.20",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2"
+  }
+}
